@@ -1,0 +1,22 @@
+{
+  "name": "obscircle0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bibe1s/OBSCircle0.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/bibe1s/OBSCircle0/issues"
+  },
+  "homepage": "https://github.com/bibe1s/OBSCircle0#readme"
+}
