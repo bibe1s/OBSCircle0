@@ -3,7 +3,7 @@ import Link from 'next/link';
 export default function Navbar() {
   return (
     <>
-    <nav className="flex max-w-screen-xl items-center justify-between p-4 bg-gray-900 text-white">
+    <nav className="flex max-w-(--breakpoint-xl) items-center justify-between p-4 bg-gray-900 text-white">
       <div className="text-xl font-bold">
         <Link href="/">OBSCIRCLE</Link>
       </div>
