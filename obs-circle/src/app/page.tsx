@@ -4,6 +4,8 @@
 // Import your custom components
 import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
+import Airdrop from '@/components/Airdrop';
+import LetterGlitch from '@/components/LetterGlitch';
 
 // Main Home page component
 export default function Home() {
@@ -15,6 +17,9 @@ export default function Home() {
       
       {/* Hero section - responsive and theme-aware */}
       <Hero />
+
+      <Airdrop />
+      
       
       {/* Future sections will be added here */}
     </main>

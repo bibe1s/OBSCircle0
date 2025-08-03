@@ -11,7 +11,7 @@ const Hero = () => {
   return (
     <section className="relative min-h-screen bg-white dark:bg-black overflow-hidden flex items-center justify-center">
       {/* Background pattern or texture */}
-      <div className="absolute inset-0 bg-gradient-to-br from-gray-100/50 via-white to-gray-200/50 dark:from-gray-900/50 dark:via-black dark:to-gray-900/50"></div>
+      
       
       {/* Main content container */}
       <div className="relative z-10 w-full max-w-7xl mx-auto px-4 py-4 md:py-8">
@@ -23,7 +23,7 @@ const Hero = () => {
 
                 {/* Example 2: Customized speed and characters */}
                 <DecryptedText
-                text="Let's Explore and Build"
+                text="Buidl."
                 speed={50}
                 maxIterations={20}
                 className="revealed"
@@ -36,7 +36,22 @@ const Hero = () => {
 
                 {/* Example 2: Customized speed and characters */}
                 <DecryptedText
-                text="your Connection in Web3."
+                text="Connect."
+                speed={50}
+                maxIterations={20}
+                className="revealed"
+                parentClassName="all-letters"
+                encryptedClassName="encrypted"
+                />
+
+              </span>
+
+              <br />
+              <span className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-black dark:text-white leading-tight">
+
+                {/* Example 2: Customized speed and characters */}
+                <DecryptedText
+                text="Repeat."
                 speed={50}
                 maxIterations={20}
                 className="revealed"
@@ -87,10 +102,6 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Decorative elements */}
-      <div className="absolute top-20 left-10 w-20 h-20 bg-black/5 dark:bg-white/5 rounded-full blur-xl animate-pulse"></div>
-      <div className="absolute bottom-20 right-10 w-32 h-32 bg-black/5 dark:bg-white/5 rounded-full blur-xl animate-pulse delay-1000"></div>
-      <div className="absolute top-1/2 right-5 w-16 h-16 bg-black/5 dark:bg-white/5 rounded-full blur-xl animate-pulse delay-500"></div>
       
       {/* Optional: Scroll indicator for desktop */}
       <div className="hidden lg:block absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
